@@ -5,3 +5,10 @@ You are predicting the worldwide revenue for 4398 movies in the test file.
 
 
 This dataset has been collected from TMDB. The movie details, credits and keywords have been collected from the TMDB Open API. This competition uses the TMDB API but is not endorsed or certified by TMDB. Their API also provides access to data on many additional movies, actors and actresses, crew members, and TV shows.
+
+
+How to evaluate the project
+
+It is your job to predict the international box office revenue for each movie. For each id in the test set, you must predict the value of the revenue variable. 
+
+Submissions are evaluated on Root-Mean-Squared-Logarithmic-Error (RMSLE) between the predicted value and the actual revenue. Logs are taken to not overweight blockbuster revenue movies.
