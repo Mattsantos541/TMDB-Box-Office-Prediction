@@ -11,4 +11,12 @@ How to evaluate the project
 
 It is your job to predict the international box office revenue for each movie. For each id in the test set, you must predict the value of the revenue variable. 
 
-Submissions are evaluated on Root-Mean-Squared-Logarithmic-Error (RMSLE) between the predicted value and the actual revenue. Logs are taken to not overweight blockbuster revenue movies.
+Submissions are evaluated on Root-Mean-Squared-Logarithmic-Error (RMSE) between the predicted value and the actual revenue. Logs are taken to not overweight blockbuster revenue movies.
+
+
+
+Results:
+
+
+Linear Regression: x= budget, runtime                 RMSE= $92,670,238.24 r=0.53
+Linear Regression: x= budget, runtime, popularity     RMSE= $86,600,189.41 r=0.59
